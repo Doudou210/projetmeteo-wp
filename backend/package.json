@@ -1,0 +1,16 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --proxy \"http://localhost/weather_app/app\" --files \"../**/*.php, ../**/*.html, ../**/*.css, ../**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
