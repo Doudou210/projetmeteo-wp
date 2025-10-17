@@ -13,13 +13,7 @@
 <body>
     <header>
         <nav>
-            <input type="search" placeholder="Rechercher">
             <h2>MyWeather</h2>
-            <ul class="navRight">
-                <li>logo</li>
-                <li>search</li>
-                <li>settings</li>
-            </ul>
         </nav>
     </header>   
     <main>
