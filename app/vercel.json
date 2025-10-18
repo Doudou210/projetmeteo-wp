@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/**/*.php": { "runtime": "vercel-php@8.4" }
+      "api/**/*.php": { "runtime": "vercel-php@8.2" }
     },
     "routes": [
       { "src": "/assets/(.*)", "dest": "/assets/$1" },
