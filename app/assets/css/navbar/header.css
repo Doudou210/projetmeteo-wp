@@ -1,0 +1,14 @@
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5fbdc4;
+    padding: 1em;
+    border-radius: .3em;
+}
+
+.navRight {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
