@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title?></title>
     <link rel="stylesheet" href="./assets/css/navbar/header.css">
+    <link rel="stylesheet" href="./assets/css//navbar//footer.css">
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 </head>
 <body>

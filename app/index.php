@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . "/navbar/header.php";
+    require_once __DIR__ . "/components/navbar/header.php";
 
     $page = $_GET["page"] ?? "home";
     $file = __DIR__ . "/pages/" . basename($page) . ".php";
@@ -12,4 +12,4 @@
         echo "<h2>Page non trouver</h2>";
     }
 
-    require_once  __DIR__ . "/navbar/footer.php";
+    require_once  __DIR__ . "/components/navbar/footer.php";
